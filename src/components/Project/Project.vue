@@ -147,7 +147,7 @@ import { onMounted, inject } from "vue";
 import { observeProject } from "@/components/Shared/observer";
 import { CustomScreen } from "@/components/Shared/screen";
 import Project0Image from "@/assets/project_0.webp";
-import Project1Image from "@/assets/project_1.webppp";
+import Project1Image from "@/assets/project_1.webp";
 import Project2Image from "@/assets/project_2.webp";
 
 onMounted(() => observeProject());
