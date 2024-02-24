@@ -416,14 +416,14 @@
 </template>
 
 <script setup lang="ts">
-import { inject, computed } from "vue";
+import { inject, computed, Ref } from "vue";
+import { CustomScreen } from "@/components/Shared/screen";
 
 const screen = inject("screen") as CustomScreen;
-const isDark = inject("isDark");
+const isDark = inject("isDark") as Ref<boolean>;
 const imgStyle = computed(() => {
   return {
-    "--screenWidth":
-      Math.min(Math.max(parseInt(screen.width.value), 0), 1620) + "px",
+    "--screenWidth": Math.min(Math.max(screen.width.value, 0), 1620) + "px",
     "--cloudColor": isDark.value ? "white" : "rgba()",
   };
 });
