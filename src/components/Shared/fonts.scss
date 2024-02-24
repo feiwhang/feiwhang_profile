@@ -1,0 +1,115 @@
+/* nunito-regular - latin */
+@font-face {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../public/fonts/nunito-v20-latin-regular.eot"); /* IE9 Compat Modes */
+  src: local(""),
+    url("../public/fonts/nunito-v20-latin-regular.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("../public/fonts/nunito-v20-latin-regular.woff2")
+      format("woff2"),
+    /* Super Modern Browsers */
+      url("../public/fonts/nunito-v20-latin-regular.woff") format("woff"),
+    /* Modern Browsers */ url("../public/fonts/nunito-v20-latin-regular.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("../public/fonts/nunito-v20-latin-regular.svg#Nunito") format("svg"); /* Legacy iOS */
+}
+/* nunito-500 - latin */
+@font-face {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("../public/fonts/nunito-v20-latin-500.eot"); /* IE9 Compat Modes */
+  src: local(""),
+    url("../public/fonts/nunito-v20-latin-500.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("../public/fonts/nunito-v20-latin-500.woff2")
+      format("woff2"),
+    /* Super Modern Browsers */ url("../public/fonts/nunito-v20-latin-500.woff")
+      format("woff"),
+    /* Modern Browsers */ url("../public/fonts/nunito-v20-latin-500.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("../public/fonts/nunito-v20-latin-500.svg#Nunito") format("svg"); /* Legacy iOS */
+}
+/* nunito-600 - latin */
+@font-face {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("../public/fonts/nunito-v20-latin-600.eot"); /* IE9 Compat Modes */
+  src: local(""),
+    url("../public/fonts/nunito-v20-latin-600.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("../public/fonts/nunito-v20-latin-600.woff2")
+      format("woff2"),
+    /* Super Modern Browsers */ url("../public/fonts/nunito-v20-latin-600.woff")
+      format("woff"),
+    /* Modern Browsers */ url("../public/fonts/nunito-v20-latin-600.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("../public/fonts/nunito-v20-latin-600.svg#Nunito") format("svg"); /* Legacy iOS */
+}
+
+@font-face {
+  font-family: "Lexend Deca";
+  src: url("../public/fonts/LexendDeca-Bold.eot");
+  src: url("../public/fonts/LexendDeca-Bold.eot?#iefix")
+      format("embedded-opentype"),
+    url("../public/fonts/LexendDeca-Bold.woff2") format("woff2"),
+    url("../public/fonts/LexendDeca-Bold.woff") format("woff"),
+    url("../public/fonts/LexendDeca-Bold.ttf") format("truetype"),
+    url("../public/fonts/LexendDeca-Bold.svg#LexendDeca-Bold") format("svg");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Lexend Deca";
+  src: url("../public/fonts/LexendDeca-SemiBold.eot");
+  src: url("../public/fonts/LexendDeca-SemiBold.eot?#iefix")
+      format("embedded-opentype"),
+    url("../public/fonts/LexendDeca-SemiBold.woff2") format("woff2"),
+    url("../public/fonts/LexendDeca-SemiBold.woff") format("woff"),
+    url("../public/fonts/LexendDeca-SemiBold.ttf") format("truetype"),
+    url("../public/fonts/LexendDeca-SemiBold.svg#LexendDeca-SemiBold")
+      format("svg");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Lexend Deca";
+  src: url("../public/fonts/LexendDeca-Medium.eot");
+  src: url("../public/fonts/LexendDeca-Medium.eot?#iefix")
+      format("embedded-opentype"),
+    url("../public/fonts/LexendDeca-Medium.woff2") format("woff2"),
+    url("../public/fonts/LexendDeca-Medium.woff") format("woff"),
+    url("../public/fonts/LexendDeca-Medium.ttf") format("truetype"),
+    url("../public/fonts/LexendDeca-Medium.svg#LexendDeca-Medium") format("svg");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Lexend Deca";
+  src: url("../public/fonts/LexendDeca-Regular.eot");
+  src: url("../public/fonts/LexendDeca-Regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("../public/fonts/LexendDeca-Regular.woff2") format("woff2"),
+    url("../public/fonts/LexendDeca-Regular.woff") format("woff"),
+    url("../public/fonts/LexendDeca-Regular.ttf") format("truetype"),
+    url("../public/fonts/LexendDeca-Regular.svg#LexendDeca-Regular")
+      format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
