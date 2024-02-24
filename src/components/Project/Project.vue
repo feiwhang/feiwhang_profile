@@ -146,6 +146,9 @@
 import { onMounted, inject } from "vue";
 import { observeProject } from "@/components/Shared/observer.ts";
 import { CustomScreen } from "../Shared/screen";
+import Project0Image from "@/assets/project_0.webp";
+import Project1Image from "@/assets/project_1.webp";
+import Project2Image from "@/assets/project_2.webp";
 
 onMounted(() => observeProject());
 
@@ -158,7 +161,7 @@ const projects = [
     description:
       "A showcase website for a luxurious fashion brand. Implement in an elegant theme of black and white. With smooth page transitions. Using firebase as the backend to store all products where users can sort by price or query by brands and categories.",
     tag: ["Vue.js", "Vite", "TypeScript", "Firebase"],
-    imgSrc: "src/assets/project_0.webp",
+    imgSrc: Project0Image,
     demoUrl: "https://the-archive-com.web.app/",
   },
   {
@@ -167,7 +170,7 @@ const projects = [
     description:
       "A visualisation website for blockchain. You can see the building block of the blockchain and how are all the blocks chained together to create a secure and immutable distributed database.",
     tag: ["Vue.js", "Vite", "TypeScript"],
-    imgSrc: "src/assets/project_1.webp",
+    imgSrc: Project1Image,
     githubUrl: "https://github.com/FeiWhang/blockchain_visual",
     demoUrl: "https://blockchain-visual.web.app/",
   },
@@ -177,7 +180,7 @@ const projects = [
     description:
       "A web platform prototype for an online marketplace for all kinds of code. An itemcode, voucher, giftcards. Register or login to post your product for sell or buy from other sellers.",
     tag: ["Vue.js", "FirebaseAuth", "Firestore"],
-    imgSrc: "src/assets/project_2.webp",
+    imgSrc: Project2Image,
     githubUrl: "https://github.com/FeiWhang/code340",
     demoUrl: "https://cs340prj.web.app/",
   },
