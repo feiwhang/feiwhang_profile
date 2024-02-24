@@ -3,7 +3,9 @@
     <div class="SectionContainer" id="AboutContainer">
       <header>
         <h2 class="SectionSubtitle" id="AboutSubtitle">About me</h2>
-        <h1 class="SectionTitle" id="AboutTitle">Front-End Developer</h1>
+        <h1 class="SectionTitle" id="AboutTitle">
+          Fullstack Software Engineer
+        </h1>
       </header>
       <div class="About__body" :class="'About__body--' + screen.type.value">
         <div class="About__bodyLeft">
@@ -62,8 +64,10 @@
                   />
                 </svg>
               </span>
-              My name is Kantinan Whangsuphadilok. I’m a third year computer
-              science student at Mahidol University International College.
+              My name is Kantinan Whangsuphadilok. I'm currently an Associate
+              Software Engineer at Agoda. Which I used to be an intern before I
+              graduated from Mahidol University International College as a
+              Computer Science Major.
             </p>
             <p>
               I’m a <span>passionate</span> and
