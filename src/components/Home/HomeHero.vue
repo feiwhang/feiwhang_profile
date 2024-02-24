@@ -13,7 +13,16 @@
       class="HomeHero__subtitle"
       :class="'HomeHero__subtitle--' + screen.type.value"
     >
-      {{ "A Computer Science student at " }}
+      {{ "Associate Software engineer at " }}
+      <a
+        href="https://careersatagoda.com/life-at-agoda/"
+        rel="noopener"
+        target="_blank"
+        title="External link to Agoda website"
+        >Agoda</a
+      >
+      |
+      {{ "Ex - Computer Science student at " }}
       <a
         href="https://muic.mahidol.ac.th/"
         rel="noopener"
@@ -21,7 +30,6 @@
         title="External link to MUIC website"
         >MUIC</a
       >
-      {{ screen.width.value >= 600 ? " based in Bangkok" : "" }}
     </p>
     <div class="HomeHero__ctaContainer">
       <LinkGo
@@ -52,6 +60,7 @@
 import { inject } from "vue";
 import LinkGo from "@/components/Shared/LinkGo.vue";
 import HeroImg from "@/components/Home/HeroImg.vue";
+import { CustomScreen } from "@/components/Shared/screen";
 
 const screen = inject("screen") as CustomScreen;
 </script>
@@ -84,6 +93,7 @@ const screen = inject("screen") as CustomScreen;
     opacity: 0;
     font-size: var(--fontS);
     margin-bottom: 24px;
+    text-align: center;
     &--xs {
       font-size: 16px;
     }
