@@ -65,17 +65,16 @@
                 </svg>
               </span>
               My name is Kantinan Whangsuphadilok. I'm currently an Associate
-              Software Engineer at Agoda. Which I used to be an intern before I
+              Software Engineer at Agoda. Which I used to be an Intern before I
               graduated from Mahidol University International College as a
               Computer Science Major.
             </p>
             <p>
               I’m a <span>passionate</span> and
-              <span>enthusiastic</span> front-end developer. I design and
-              develop applications with the main focus on user experience. User
-              can expect a <span>modern</span> UI with a fun
-              <span>animation</span> to create even more
-              <span>impactful experience</span>.
+              <span>enthusiastic</span> fullstack software engineer. I design
+              and develop applications with the main focus on
+              <span>user experience</span>, <span>performance</span>,
+              <span>security</span> and <span>reliabilty</span>.
             </p>
           </section>
           <br />
