@@ -30,17 +30,17 @@
 </template>
 
 <script setup lang="ts">
-import { inject } from "vue";
+import { Ref, inject } from "vue";
 
-const hash = inject("hash");
-const isMobileNavOpened = inject("isMobileNavOpened");
+const hash = inject("hash") as Ref<string>;
+const isMobileNavOpened = inject("isMobileNavOpened") as Ref<boolean>;
 
-function onNavClicked(id) {
+function onNavClicked(id: string) {
   hash.value = "#" + id;
   isMobileNavOpened.value = false;
 
   const navEl = document.getElementById(id);
-  navEl.scrollIntoView({
+  navEl?.scrollIntoView({
     block: "start",
     behavior: "smooth",
   });
