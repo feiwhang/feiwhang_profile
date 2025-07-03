@@ -64,10 +64,10 @@
                   />
                 </svg>
               </span>
-              My name is Kantinan Whangsuphadilok. I'm currently an Associate
-              Software Engineer at Agoda. Which I used to be an Intern before I
-              graduated from Mahidol University International College as a
-              Computer Science Major.
+              My name is Kantinan Whangsuphadilok. I'm currently a Software
+              Engineer at Agoda. Which I used to be an Intern before I graduated
+              from Mahidol University International College as a Computer
+              Science Major.
             </p>
             <p>
               I’m a <span>passionate</span> and

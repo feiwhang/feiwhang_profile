@@ -13,7 +13,7 @@
       class="HomeHero__subtitle"
       :class="'HomeHero__subtitle--' + screen.type.value"
     >
-      {{ "Associate Software engineer at " }}
+      {{ "Software engineer at " }}
       <a
         href="https://careersatagoda.com/life-at-agoda/"
         rel="noopener"
