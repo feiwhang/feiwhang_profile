@@ -182,7 +182,7 @@
       <nav
         class="Header__mobileNav"
         v-if="isMobileNavOpened"
-        :class="'opened' ? isMobileNavOpened : ''"
+        :class="{ opened: isMobileNavOpened }"
         @wheel.prevent
         @touchmove.prevent
         @scroll.prevent

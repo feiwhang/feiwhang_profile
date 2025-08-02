@@ -86,7 +86,7 @@ provide("isDark", isDark);
 </script>
 
 <style lang="scss">
-@import "./components/Shared/fonts.scss";
+@use "./components/Shared/fonts.scss" as *;
 * {
   padding: 0;
   margin: 0;
