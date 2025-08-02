@@ -4,7 +4,7 @@
       <header>
         <h2 class="SectionSubtitle" id="AboutSubtitle">About me</h2>
         <h1 class="SectionTitle" id="AboutTitle">
-          Fullstack Software Engineer
+          Software Engineer
         </h1>
       </header>
       <div class="About__body" :class="'About__body--' + screen.type.value">
@@ -65,16 +65,15 @@
                 </svg>
               </span>
               My name is Kantinan Whangsuphadilok. I'm currently a Software
-              Engineer at Agoda. Which I used to be an Intern before I graduated
-              from Mahidol University International College as a Computer
-              Science Major.
+              Engineer at Agoda. I'm proud to deliver product that help people travels more and worry less.
+              Outside of work I still enjoy exploring new tech and building side projects.
             </p>
             <p>
               I’m a <span>passionate</span> and
-              <span>enthusiastic</span> fullstack software engineer. I design
-              and develop applications with the main focus on
+              <span>enthusiastic</span> software engineer. I design,
+              develop and maintain an applications with the main focus on
               <span>user experience</span>, <span>performance</span>,
-              <span>security</span> and <span>reliabilty</span>.
+              <span>security</span>, <span>reliabilty</span> and <span>scalability</span>.
             </p>
           </section>
           <br />
