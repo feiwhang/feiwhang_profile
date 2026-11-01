@@ -22,7 +22,7 @@
         >Agoda</a
       >
       |
-      {{ "Ex - Computer Science student at " }}
+      {{ "Computer Science Graduate from" }}
       <a
         href="https://muic.mahidol.ac.th/"
         rel="noopener"
